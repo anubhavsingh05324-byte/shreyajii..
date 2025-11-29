@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Meenamma 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Fullscreen romantic animation layer -->
+<div id="romanticAnimation" class="hidden"></div>
+
+<div id="app">
+
+    <!-- Screen 1 -->
+    <div class="screen" id="screen1">
+        <h2>💗 Meenamma 💗</h2>
+        <p class="line">From 500 km away… Anubhav has one question 👇</p>
+        <h3 class="question">Will you be my forever? 💍</h3>
+
+        <div class="btn-group">
+            <button class="yes" onclick="startRomanticAnimation(2)">Yes ❤️</button>
+            <button class="no" id="no1" onmouseover="runAway(this)" ontouchstart="runAway(this)">No</button>
+        </div>
+    </div>
+
+    <!-- Screen 2 -->
+    <div class="screen hidden" id="screen2">
+        <h2>😳 Really?</h2>
+        <p class="line">Do you know Anubhav sometimes does crazy things…  
+        like falling for a girl named <strong>you</strong> 😌</p>
+
+        <p class="question">Still want him?</p>
+
+        <div class="btn-group">
+            <button class="yes" onclick="startRomanticAnimation(3)">Really Yes 😂</button>
+            <button class="no" id="no2" onmouseover="runAway(this)" ontouchstart="runAway(this)">No</button>
+        </div>
+    </div>
+
+    <!-- Screen 3 -->
+    <div class="screen hidden" id="screen3">
+        <h2>💀 Congratulations!</h2>
+        <p class="line">Your life is officially going to be the worst…  
+        because Anubhav will annoy you forever 😈</p>
+
+        <p class="question">Are you ready… final decision?</p>
+
+        <div class="btn-group">
+            <button class="yes" onclick="startRomanticAnimation(4)">Yes (final) ❤️</button>
+            <button class="no" id="no3" onmouseover="runAway(this)" ontouchstart="runAway(this)">No</button>
+        </div>
+    </div>
+
+    <!-- Screen 4 Final -->
+    <div class="screen hidden" id="screen4">
+        <h2 class="pop">🎉 Congratulations 🎉</h2>
+        <p class="line">You are now officially  
+        <strong>Anubhav’s Meenamma</strong> 💘</p>
+
+        <h3 class="love">I love you sooooo much ❤️💖</h3>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
